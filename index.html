@@ -3,35 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lexi – Support</title>
-<style>
-  :root { --text:#1d1d1f; --muted:#6e6e73; --bg:#fff; --accent:#9e1b1b; --card:#f5f5f7; }
-  @media (prefers-color-scheme: dark) { :root { --text:#f5f5f7; --muted:#a1a1a6; --bg:#000; --accent:#e2705f; --card:#1c1c1e; } }
-  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
-  h1 { font-size:34px; margin:0 0 4px; } h2 { font-size:21px; margin:32px 0 8px; }
-  .muted { color:var(--muted); } a { color:var(--accent); }
-  .card { background:var(--card); border-radius:14px; padding:16px 18px; margin:12px 0; }
-  .card h3 { margin:0 0 4px; font-size:17px; } .card p { margin:0; color:var(--muted); }
-</style>
+<title>Lexi: Daily Vocabulary</title>
+<meta name="description" content="Ten new words a day, reviewed right before you forget them. Learn English, Chinese, French or Spanish with Lexi for iPhone and iPad.">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<h1>Lexi</h1>
-<p class="muted">Ten new words a day, reviewed right when you are about to forget them.</p>
+<div class="wrap">
+<header class="mast">
+  <p class="name">Lexi</p>
+  <div class="dateline"><span>The vocabulary daily</span><span>Ten words a day</span><span>Free for iPhone &amp; iPad</span></div>
+  <nav><a href="#features">Features</a><a href="#languages">Languages</a><a href="#support">Support</a><a href="privacy-policy.html">Privacy</a></nav>
+</header>
 
-<h2>Contact support</h2>
-<p>Email <a href="mailto:lunsovathana@gmail.com?subject=Lexi%20Support">lunsovathana@gmail.com</a>. Include your device model and iOS version, and we'll reply within two business days.</p>
+<section class="hero">
+  <div>
+    <h1>Ten words a day. Never forget them.</h1>
+    <p class="lead">A calm, newspaper-style vocabulary builder. Lexi brings every word back right before you would forget it.</p>
+    <a class="btn" href="#support">Get support</a><a class="btn alt" href="#features">How it works</a>
+  </div>
+  <div class="shots">
+    <img src="img/today.jpg" alt="Lexi's Today screen with the daily deck, streak and quiz" width="540" height="1174">
+    <img src="img/answer.jpg" alt="A Lexi flashcard showing a word, its meaning and an example sentence" width="540" height="1174">
+  </div>
+</section>
 
-<h2>Frequently asked questions</h2>
-<div class="card"><h3>How does the daily deck work?</h3><p>Each day Lexi gives you up to 10 cards: words due for review first, then new ones. Tap a card to flip it, then rate it Again, Hard, Good or Easy (or swipe right for Good, left for Again). Lexi schedules the next review for you.</p></div>
-<div class="card"><h3>How do I unlock more words after finishing my deck?</h3><p>Watch a short optional ad to unlock 10 more words. Ads are never required for your daily deck.</p></div>
-<div class="card"><h3>How does quiz mode work?</h3><p>Quiz mode asks 10 multiple-choice questions from words you have already learned. You have 3 lives, and it unlocks after you learn 4 words.</p></div>
-<div class="card"><h3>Can I add my own words?</h3><p>Yes. Open Words and tap +. Your words join the daily review before the active deck's new words.</p></div>
-<div class="card"><h3>I'm not getting reminders.</h3><p>Turn on the daily reminder in Lexi Settings, and check iOS Settings → Notifications → Lexi.</p></div>
-<div class="card"><h3>Can I learn Chinese, French or Spanish?</h3><p>Yes. Open Decks and pick a language. Meanings are shown in English.</p></div>
-<div class="card"><h3>Where do the word lists come from?</h3><p>Open data sources, credited in Settings → Content &amp; licences.</p></div>
-<div class="card"><h3>Where is my data stored?</h3><p>On your device only. See the <a href="privacy-policy.html">Privacy Policy</a>.</p></div>
-</main>
+<section class="cols" id="features">
+  <div><h2>A small daily deck</h2><p>Ten cards a day: words due for review first, then fresh ones. Finish in a few minutes and keep your streak alive.</p></div>
+  <div><h2>Smart review</h2><p>Spaced repetition schedules every word. Tap to flip, rate it Again, Hard, Good or Easy, or swipe. Hear each word read aloud.</p></div>
+  <div><h2>Quiz mode</h2><p>Ten multiple-choice questions from the words you have learned. Three lives. Beat your own score.</p></div>
+</section>
+
+<section class="band" id="languages">
+  <h2 class="big">Four languages, one app</h2>
+  <p>Pick a deck, filter by level from Beginner to Advanced, and add your own words as you meet them.</p>
+  <div class="langs">
+    <div><b>English</b><span>Oxford, IELTS, GRE, Business, Idioms</span></div>
+    <div><b>中文</b><span>HSK 3.0, levels 1 to 9</span></div>
+    <div><b>Français</b><span>3,000 common words</span></div>
+    <div><b>Español</b><span>3,000 common words</span></div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="shots" style="max-width:520px;margin:0 auto"><img src="img/quiz.jpg" alt="Lexi quiz mode with three lives" width="540" height="1174"><img src="img/decks.jpg" alt="Lexi's deck list" width="540" height="1174"></div>
+</section>
+
+<section class="band" id="support">
+  <h2 class="big">Support</h2>
+  <div class="contact">Questions or trouble? Email <a href="mailto:lunsovathana@gmail.com?subject=Lexi%20Support">lunsovathana@gmail.com</a>. Include your device model and iOS version, and we'll reply within two business days.</div>
+
+  <h2 style="margin-top:34px">Frequently asked questions</h2>
+  <div class="card"><h3>How does the daily deck work?</h3><p>Each day Lexi gives you up to 10 cards: words due for review first, then new ones. Tap a card to flip it, then rate it Again, Hard, Good or Easy (or swipe right for Good, left for Again). Lexi schedules the next review for you.</p></div>
+  <div class="card"><h3>How do I unlock more words after finishing my deck?</h3><p>Watch a short optional ad to unlock 10 more words. Ads are never required for your daily deck.</p></div>
+  <div class="card"><h3>How does quiz mode work?</h3><p>Quiz mode asks 10 multiple-choice questions from words you have already learned. You have 3 lives, and it unlocks after you learn 4 words.</p></div>
+  <div class="card"><h3>Can I add my own words?</h3><p>Yes. Open Words and tap +. Your words join the daily review before the active deck's new words.</p></div>
+  <div class="card"><h3>I'm not getting reminders.</h3><p>Turn on the daily reminder in Lexi Settings, and check iOS Settings → Notifications → Lexi.</p></div>
+  <div class="card"><h3>Can I learn Chinese, French or Spanish?</h3><p>Yes. Open Decks and pick a language. Meanings are shown in English.</p></div>
+  <div class="card"><h3>Where do the word lists come from?</h3><p>Open data sources, credited in Settings → Content &amp; licences.</p></div>
+  <div class="card"><h3>Where is my data stored?</h3><p>On your device only. See the <a href="privacy-policy.html">Privacy Policy</a>.</p></div>
+</section>
+
+<footer>© 2026 Lun Sovathana · <a href="privacy-policy.html">Privacy Policy</a> · <a href="mailto:lunsovathana@gmail.com?subject=Lexi%20Support">Contact</a></footer>
+</div>
 </body>
 </html>
